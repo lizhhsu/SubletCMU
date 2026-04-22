@@ -244,7 +244,7 @@ const Index = () => {
             { icon: MessageSquare, t: "Direct contact", d: "Reach listers directly via text or Instagram — no inbox middle layer." },
             { icon: Compass, t: "Clean listing layout", d: "No clutter, no ads, no algorithmic noise. Just what students need to decide." },
           ].map((f) => (
-            <div key={t} className="editorial-card">
+            <div key={f.t} className="editorial-card">
               <f.icon className="h-5 w-5 text-foreground" strokeWidth={1.4} />
               <h3 className="mt-5 font-serif text-lg">{f.t}</h3>
               <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{f.d}</p>
