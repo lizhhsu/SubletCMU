@@ -90,7 +90,7 @@ const Index = () => {
               off-campus apartment search.
             </p>
             <p className="mt-6 text-base text-muted-foreground leading-relaxed max-w-xl">
-              CMU students — especially freshmen and sophomores — struggle to find
+              CMU students, especially freshmen and sophomores, struggle to find
               housing quickly. Listings are scattered across Instagram, group chats,
               and informal channels, leaving students without a trustworthy place to
               search when timing matters most.
@@ -142,7 +142,7 @@ const Index = () => {
         id="problem"
         eyebrow="The Problem"
         title="Why housing search at CMU feels chaotic"
-        intro="The CMU off-campus housing experience is not broken because listings don't exist — it's broken because they're invisible, unstructured, and untimed. Students lose hours navigating fragmented channels just to confirm basics."
+        intro="The CMU off-campus housing experience is not broken because listings don't exist, it's broken because they're invisible, unstructured, and untimed. Students lose hours navigating fragmented channels just to confirm basics."
       >
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           <PainCard
@@ -158,7 +158,7 @@ const Index = () => {
           <PainCard
             icon={Clock3}
             title="Time-sensitive pressure"
-            body="Decisions are made in days, not weeks — especially in the run-up to a semester or summer internship."
+            body="Decisions are made in days, not weeks, especially in the run-up to a semester or summer internship."
           />
           <PainCard
             icon={ShieldCheck}
@@ -171,7 +171,7 @@ const Index = () => {
           <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-3xl">
             This problem is especially acute in the weeks right before a semester
             begins, when students need housing fast and cannot afford uncertainty.
-            The cost of a bad match is not just financial — it is academic and
+            The cost of a bad match is not just financial, it is academic and
             emotional.
           </p>
         </div>
@@ -241,7 +241,7 @@ const Index = () => {
             { icon: ImageIcon, t: "Structured listings", d: "Price, location, room details, and photos in a consistent, scannable format." },
             { icon: CalendarDays, t: "Clear available dates", d: "Move-in and move-out windows are first-class fields, not afterthoughts." },
             { icon: Filter, t: "Powerful filters", d: "Filter by move-in date, price ceiling, and walking distance to campus." },
-            { icon: MessageSquare, t: "Direct contact", d: "Reach listers directly via text or Instagram — no inbox middle layer." },
+            { icon: MessageSquare, t: "Direct contact", d: "Reach listers directly via text or Instagram, no inbox middle layer." },
             { icon: Compass, t: "Clean listing layout", d: "No clutter, no ads, no algorithmic noise. Just what students need to decide." },
           ].map((f) => (
             <div key={f.t} className="editorial-card">
@@ -266,7 +266,7 @@ const Index = () => {
         id="workflow"
         eyebrow="How the system works"
         title="System workflow"
-        intro="A linear, low-friction pipeline that takes a listing from submission to a completed match — with verification and structure built in at every step."
+        intro="A linear, low-friction pipeline that takes a listing from submission to a completed match, with verification and structure built in at every step."
         tone="cream"
       >
         <div className="relative">
@@ -312,7 +312,7 @@ const Index = () => {
         id="strategy"
         eyebrow="Strategic Analysis"
         title="Why this creates value"
-        intro="SubletCMU's value is not in inventory volume — it is in reducing friction at the most uncertain moment of a student's housing journey."
+        intro="SubletCMU's value is not in inventory volume, it is in reducing friction at the most uncertain moment of a student's housing journey."
       >
         <div className="grid lg:grid-cols-3 gap-6">
           <div className="editorial-card">
@@ -330,7 +330,7 @@ const Index = () => {
             <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
               SubletCMU creates value in the discovery and matching stage of student
               housing. It improves information flow before the leasing or subletting
-              decision happens — upstream of the transaction itself.
+              decision happens, upstream of the transaction itself.
             </p>
           </div>
           <div className="editorial-card">
@@ -338,7 +338,7 @@ const Index = () => {
             <h3 className="mt-5 font-serif text-xl">Competitive positioning</h3>
             <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
               Against general-purpose platforms, SubletCMU wins on student-fit,
-              verified trust, and explicit move-in timing — three dimensions
+              verified trust, and explicit move-in timing, three dimensions
               incumbents systematically underweight.
             </p>
           </div>
@@ -453,7 +453,7 @@ const Index = () => {
             {
               tag: "TAM",
               t: "Technology Acceptance Model",
-              d: "SubletCMU increases perceived usefulness by making timing and pricing visible upfront, and increases ease of use through structured filters and a clean interface — the two factors TAM identifies as decisive in adoption.",
+              d: "SubletCMU increases perceived usefulness by making timing and pricing visible upfront, and increases ease of use through structured filters and a clean interface, the two factors TAM identifies as decisive in adoption.",
               link: "Design choice → upfront fields, minimal UI, default sort by relevance to timing.",
             },
             {
@@ -465,7 +465,7 @@ const Index = () => {
             {
               tag: "Platform",
               t: "Platform Theory",
-              d: "SubletCMU creates value by connecting two groups inside the CMU ecosystem — students seeking housing and students offering sublets — with structure that benefits both sides simultaneously.",
+              d: "SubletCMU creates value by connecting two groups inside the CMU ecosystem, students seeking housing and students offering sublets, with structure that benefits both sides simultaneously.",
               link: "Design choice → two-sided submission and search flows, shared verification.",
             },
           ].map((t) => (
@@ -491,7 +491,7 @@ const Index = () => {
         id="impact"
         eyebrow="Impact"
         title="Expected impact"
-        intro="SubletCMU is small in scope but meaningful in effect — improving how a tightly defined community shares information about one of its most important decisions."
+        intro="SubletCMU is small in scope but meaningful in effect, improving how a tightly defined community shares information about one of its most important decisions."
         tone="cream"
       >
         <div className="grid md:grid-cols-2 gap-6">
@@ -589,7 +589,7 @@ const Index = () => {
         id="mvp"
         eyebrow="MVP & metrics"
         title="Lean MVP and how we'd measure success"
-        intro="The first version is intentionally realistic and no-code friendly. The goal is traction first, not technical complexity — proving the timing-first thesis before investing in custom infrastructure."
+        intro="The first version is intentionally realistic and no-code friendly. The goal is traction first, not technical complexity, proving the timing-first thesis before investing in custom infrastructure."
         tone="cream"
       >
         <div className="grid lg:grid-cols-2 gap-6">
@@ -665,7 +665,7 @@ const Index = () => {
           {[
             {
               t: "How responsibilities were divided",
-              d: "Each member owned one of four pillars — research, strategy, theory, and synthesis — while contributing to shared deliverables.",
+              d: "Each member owned one of four pillars, research, strategy, theory, and synthesis, while contributing to shared deliverables.",
             },
             {
               t: "How decisions were made",
@@ -702,7 +702,7 @@ const Index = () => {
             <p className="mt-8 text-lg md:text-xl text-background/80 leading-relaxed font-serif font-light">
               SubletCMU shows how a well-designed information system can reduce
               stress, improve decision-making, and create real value in a tightly
-              defined community. It is not a flashy marketplace — it is a careful
+              defined community. It is not a flashy marketplace, it is a careful
               intervention at the moment students need it most.
             </p>
             <div className="mt-12">
