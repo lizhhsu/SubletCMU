@@ -646,10 +646,10 @@ const Index = () => {
       >
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {[
-            { n: "Team Member 1", r: "Research and problem framing" },
-            { n: "Team Member 2", r: "Solution design and strategy" },
-            { n: "Team Member 3", r: "Social theory and impact analysis" },
-            { n: "Team Member 4", r: "Website design and synthesis" },
+            { n: "Nicole Wang", r: "UX Designer" },
+            { n: "Skylar Wang", r: "Project Manager" },
+            { n: "Elizabeth Hsu", r: "Product Strategy" },
+            { n: "Wendy Wang", r: "Strategy, Research & Social Impact Lead" },
           ].map((m) => (
             <div key={m.n} className="editorial-card">
               <div className="h-12 w-12 rounded-full bg-cream-deep border border-border grid place-items-center">
